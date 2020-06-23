@@ -1,24 +1,35 @@
 import React from 'react'
-import {FiFacebook} from 'react-icons/fi'
-import {RiLinkedinBoxLine} from 'react-icons/ri'
-import {FaGithubSquare} from 'react-icons/fa'
-const Contact =()=>{
+import NavBar from './NavBar'
+import NetsFooter from './NetsFooter'
+import {FaFacebookMessenger,FaLinkedinIn,FaGithub,FaWhatsapp} from 'react-icons/fa'
+import {MdEmail} from 'react-icons/md'
+import {AiOutlineNumber} from 'react-icons/ai'
+const Contact=()=>{
     return(
-        <footer>
-            <section className="text-center">
-            <h1>
-                Contactame!
-            </h1>
-            <article>
-                <FiFacebook size={50}/>
-                <RiLinkedinBoxLine size={50}/>
-                <FaGithubSquare size={50}/>
+        <section className="contact">
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-3"> 
+            <NavBar/> 
+            </div>
+            <div className="col-9 text-center">
+                <article className=" bg-dark p-5"> 
+            <h1>Hola!</h1>
+            <br/>
+            <p style={{fontSize:25}}><strong>No dudes en comunicarte</strong> </p>
+            <h2>Facebook <a href="" target="_blank"><FaFacebookMessenger/></a></h2>
+            <h2>LinkedIn <a href="" target="_blank"><FaLinkedinIn/></a></h2>
+            <h2>GitHub <a href="" target="_blank"><FaGithub/></a></h2>
+            <h2><AiOutlineNumber/> Phone <a href="(+57 3197775473)" target="_blank"><FaWhatsapp/></a></h2>
+            <h2> Email <a href="adguerreroc@unal.edu.co" target="_blank"><MdEmail/></a></h2>
             </article>
-            </section>
-            <section id="pie" className="text-right">
-            <h2>Copyright Medellin-Antioquia</h2>
-            </section>
-        </footer>
+            </div>
+
+        </div>
+        <NetsFooter/>
+        </div>
+        </section>
     )
 }
+
 export default Contact;

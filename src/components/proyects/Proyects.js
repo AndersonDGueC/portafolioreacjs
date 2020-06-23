@@ -1,4 +1,6 @@
 import React, {useState} from 'react'
+import NavBar from './../NavBar'
+import NetsFooter from '../NetsFooter'
 import Carousel from 'react-bootstrap/Carousel'
 import proyectType from './typeProyect.json'  
 import tribute from './../../imagenes/tribute_page.png'
@@ -21,7 +23,14 @@ const Proyects=()=>{
     };
     
     return (
+
         <section className="proyects">
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col-3">
+            <NavBar/>
+            </div>
+            <div className="col-9">
             <h1  className="text-center"><strong>Proyectos</strong></h1>
             <Carousel  activeIndex={index} onSelect={handleSelect} slide={false}>
         
@@ -50,7 +59,10 @@ const Proyects=()=>{
       }
       
     </Carousel>
-
+    </div>
+    </div>
+      <NetsFooter/>
+      </div>
         </section>
     )
 

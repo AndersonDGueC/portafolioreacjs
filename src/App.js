@@ -1,18 +1,20 @@
 import React from 'react';
-import NavBar from './components/NavBar'
-import About from './components/About'
-import Proyects from './components/proyects/Proyects'
-import Contact from './components/Contact'
+import {Route, Switch} from 'react-router-dom';
+import About from './components/about/About';
+import Proyects from './components/proyects/Proyects';
+import Contact from './components/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style/App.css'
 
 function App() {
   return (
     <div className="App">
-      <NavBar/>
-      <About/>
-      <Proyects/>
-      <Contact/>
+      <Switch>
+        <Route exact path="/" component={About}/>
+        <Route path ="/proyect" component={Proyects}/>
+        <Route path ="/contact" component={Contact}/>
+      </Switch>
+      
     </div>
   );
 }
