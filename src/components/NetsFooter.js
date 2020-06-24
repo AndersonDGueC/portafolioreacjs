@@ -5,15 +5,15 @@ import {FaGithubSquare} from 'react-icons/fa'
 
 const NetsFooter =()=>{
     return(
-        <footer>
+        <footer id="finally">
             <section className="text-center">            
             <h2>
-                Visatame!
+                Visitame!
             </h2>
             <article>
-                <a href="https://www.facebook.com/dc1310" target="_blank"><FiFacebook size={70}/></a>
-                <a href="https://www.linkedin.com/in/anderson-guerrero-984b5a193/" target="_blank"><RiLinkedinBoxLine size={70}/></a>
-                <a href="https://github.com/AndersonDGueC" target="_blank"><FaGithubSquare size={70}/></a>
+                <a href="https://www.facebook.com/dc1310" target="_blank"><FiFacebook id="faB" size={70}/></a>
+                <a href="https://www.linkedin.com/in/anderson-guerrero-984b5a193/" target="_blank"><RiLinkedinBoxLine id="linkI" size={70}/></a>
+                <a href="https://github.com/AndersonDGueC" target="_blank"><FaGithubSquare id="gitH" size={70}/></a>
             </article>
             
             </section>

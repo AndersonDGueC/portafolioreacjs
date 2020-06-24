@@ -26,27 +26,27 @@ return(
     <div id="bot" className="container-fluid">
         <div id="box" className="row">
         <div className="col-sm-12 text-center" onClick={handleToggleBox}>
-            <img src={box} width="100px" />
+            <img src={box} alt="box"/>
             <ButtonBox view={viewBox} close={handleToggleBox}/>
         </div>
         </div>
         <div className="row">
         <div id="code" className="col-sm-4 text-center" onClick={handleToggleCode} >
-        <img src={code} width="100px"/>
+        <img src={code} alt="code"/>
         <ButtonCode view={viewCode} close={handleToggleCode}/>
         </div>
-        <div className="col-sm-4">
-        <img src={logoico} width="150x"/>    
+        <div id="logoico" className="col-sm-4 text-center">
+        <img src={logoico} alt="logoico"/>    
         </div>
         <div id="song" className="col-sm-4 text-center" onClick={handleToggleSong} >
-         <img src={song} width="100px" />
+         <img src={song} alt="song"/>
          <ButtonSong view={viewSong} close={handleToggleSong}/>   
 
         </div>
         </div>
         <div id="book" className="row" onClick={handleToggleBook}>
         <div className="col-sm-12 text-center">
-        <img src={book} width="100px"/>
+        <img src={book} alt="book"/>
         <ButtonBook view={viewBook} close={handleToggleBook}/>
         </div>
         </div>

@@ -49,7 +49,21 @@ body{
     width: 600px;
     
 }
-
+#logoico img{
+    width:150px;
+}
+#song img{
+    width:100px;
+}
+#box img{
+    width:100px;
+}
+#book img{
+    width:100px;
+}
+#code img{
+    width:100px;
+}
 #box img:hover{
     
     cursor: pointer;
@@ -104,4 +118,201 @@ body{
     background-color: #293547;
 }
 
+.contact p{
+    font-size: 25px;
+}
+/* 1200px / 16px = 75em */
+@media (max-width: 75em) {
+    .about h1{
+        font-size: 90px;
+        padding: 5px;
+      
+    }
+    #bot{
+        width:100%
+    }
+    #logoico img{
+        width:150px;
+    }
+    #song img{
+        width:100px;
+    }
+    #box img{
+        width:100px;
+    }
+    #book img{
+        width:100px;
+    }
+    #code img{
+        width:100px;
+    }
+    
+  }
+  
+  /* 980px / 16px = 61.25em */
+  @media (max-width: 61.25em) {
+    .about h1{
+        font-size: 50px;
+        padding: 5px;
+      
+    }
+    #bot{
+        width:100%
+    }
+    #logoico img{
+        width:110px;
+    }
+    #song img{
+        width:60px;
+    }
+    #box img{
+        width:60px;
+    }
+    #book img{
+        width: 60px;
+    }
+    #code img{
+        width: 60px;
+    }
+    .nav_presentation{
+        font-size: 20px;
+        position: fixed;
+        //background-color:#112B52;
+    }
 
+    #navbarNav li{
+        padding: 7px;
+        margin: 7px;
+    }
+#finally h2{
+font-size: 20px;
+}
+    #gitH{
+        width: 40px;
+    }
+    #linkI{
+        width: 50px;
+    }
+    #faB{
+        width: 40px;
+    }
+
+    #finally h3{
+        font-size: 15px;
+    }
+
+    .proyects h1{
+        font-size: 50px;
+        padding: 5px;
+        
+    }
+    #carousel{
+        width:400px;
+    }
+    .proyects article a,h3{
+        font-size: 15px;
+    }
+    
+    .contact h1{
+        font-size: 30px;
+    }
+    .contact p{
+        font-size: 20px;
+    }
+    .contact h2{
+        font-size: 15px;
+    }
+  }
+  
+  /* 460px / 16px = 28.75em */
+  @media (max-width: 28.75em) {
+    .about h1{
+        font-size: 30px;
+        padding: 5px;
+      
+    }
+    #bot{
+        width:100%;
+    }
+    #logoico img{
+        width:80px;
+    }
+    #song img{
+        width:40px;
+    }
+    #box img{
+        width:40px;
+    }
+    #book img{
+        width:40px;
+    }
+    #code img{
+        width:40px;
+    }
+    .nav_presentation{
+        font-size: 10px;
+        position: fixed;
+        margin-left:0px;
+        padding-left: 0px;
+        //background-color:#112B52;
+    }
+
+    #navbarNav li{
+        padding: 4px;
+        margin: 4px;
+    }
+#finally h2{
+font-size: 10px;
+}
+    #gitH{
+        width: 20px;
+    }
+    #linkI{
+        width: 30px;
+    }
+    #faB{
+        width: 20px;
+    }
+
+    #finally h3{
+        font-size: 10px;
+    }
+
+    .proyects h1{
+        font-size: 30px;
+        padding: 5px;
+        
+    }
+    #carousel{
+        width:300px;
+    }
+    .proyects article a,h3{
+        font-size: 10px;
+    }
+    .contact h1{
+        font-size: 20px;
+    }
+    .contact p{
+        font-size: 10px;
+    }
+    .contact h2{
+        font-size: 8px;
+    }
+  }
+
+  @media(max-width:25.375em){
+    #carousel{
+        width:200px;
+    }
+    .contact article{
+        display: inline-block;
+       
+        width: 150px;
+    }
+  }
+  @media(max-width:17.75em){
+    #carousel{
+        width:60px;
+        margin-left:40px;
+    }
+  }

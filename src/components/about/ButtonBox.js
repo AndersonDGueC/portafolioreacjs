@@ -13,7 +13,7 @@ const ButtonBox=(props)=>{
         </Modal.Header>
         <Modal.Body className="bg-secondary">
             Me gusta muchos los deportes, principalmente el boxeo, considero 
-            que es un deporte de estrategia y tecnica en la cual, ayuda a manter
+            que es un deporte de estrategia y técnica en la cual, ayuda a manter
             tu salud fisica y mental.
         </Modal.Body>
         <Modal.Footer className="bg-dark">

@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from '../NavBar'
 import NetsFooter from '../NetsFooter'
-import Buttons from './Bottons'
+import Bottons from './Bottons'
 
 
 const About=()=>{
@@ -17,7 +17,7 @@ return(
             <div className="col-9">
         <h1  className="text-center"><strong> Soy Anderson Danilo</strong></h1>
        
-        <Buttons />
+        <Bottons />
             </div>
         </div>
         <NetsFooter/>

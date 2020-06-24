@@ -11,8 +11,9 @@ const ButtonBook=(props)=>{
             <Modal.Title>Libros</Modal.Title>
         </Modal.Header>
         <Modal.Body className="bg-secondary">
-            considera la lectura, una parte primordial para el 
-            aprendizaje continuo tanto profesional como personal
+            Considero a la lectura, una parte primordial para el 
+            aprendizaje continuo tanto profesional como personal, me gustan
+            los libros relacionados con tecnología, economía, psicología, acción e hisotorias.
         </Modal.Body>
         <Modal.Footer className="bg-dark">
         <IoMdBook size={30}/>

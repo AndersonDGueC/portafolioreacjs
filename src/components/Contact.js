@@ -12,14 +12,14 @@ const Contact=()=>{
                     <div className="col-3"> 
             <NavBar/> 
             </div>
-            <div className="col-9 text-center">
+            <div  className="col-9 text-center">
                 <article className=" bg-dark p-5"> 
             <h1>Hola!</h1>
             <br/>
-            <p style={{fontSize:25}}><strong>No dudes en comunicarte</strong> </p>
-            <h2>Facebook <a href="" target="_blank"><FaFacebookMessenger/></a></h2>
-            <h2>LinkedIn <a href="" target="_blank"><FaLinkedinIn/></a></h2>
-            <h2>GitHub <a href="" target="_blank"><FaGithub/></a></h2>
+            <p><strong>No dudes en comunicarte</strong> </p>
+            <h2>Facebook <a href="https://www.facebook.com/dc1310" target="_blank"><FaFacebookMessenger/></a></h2>
+            <h2>LinkedIn <a href="https://www.linkedin.com/in/anderson-guerrero-984b5a193/" target="_blank"><FaLinkedinIn/></a></h2>
+            <h2>GitHub <a href="https://github.com/AndersonDGueC" target="_blank"><FaGithub/></a></h2>
             <h2><AiOutlineNumber/> Phone <a href="(+57 3197775473)" target="_blank"><FaWhatsapp/></a></h2>
             <h2> Email <a href="adguerreroc@unal.edu.co" target="_blank"><MdEmail/></a></h2>
             </article>

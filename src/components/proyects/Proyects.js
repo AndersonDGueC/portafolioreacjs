@@ -32,7 +32,7 @@ const Proyects=()=>{
             </div>
             <div className="col-9">
             <h1  className="text-center"><strong>Proyectos</strong></h1>
-            <Carousel  activeIndex={index} onSelect={handleSelect} slide={false}>
+            <Carousel id="carousel" activeIndex={index} onSelect={handleSelect} slide={false}>
         
       {
         proyectType.typeProyect.map((arr,index)=>{

@@ -12,8 +12,11 @@ const ButtonSong=(props)=>{
             <Modal.Title>Música</Modal.Title>
         </Modal.Header>
         <Modal.Body className="bg-secondary">
-            Mi mayor parte del tiempo escucho musica, mientras trabajo 
-            entonces ya imaginaras la creatividad
+            Mi mayor parte del tiempo escucho música, mientras trabajo, 
+            entonces ya imaginaras la creatividad.
+
+            Los géneros que sigo son: El Rock (inclinado al psicodélico-garage-Blues-Indie)
+            también me gusta el punk-ThrashMetal... y unas cuantas más ;)
         </Modal.Body>
         <Modal.Footer className="bg-dark">
             <GiLoveSong size={30}/>
